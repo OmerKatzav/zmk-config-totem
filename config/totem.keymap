@@ -55,6 +55,7 @@
         colemak_switch {
             bindings = <&to 0>;
             key-positions = <34 31>;
+            layers = <1>;
         };
     };
 
