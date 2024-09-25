@@ -57,6 +57,11 @@
             key-positions = <34 19>;
             layers = <1>;
         };
+
+        qwerty_apostrophe {
+            bindings = <&kp APOS>;
+            key-positions = <19 10>;
+        };
     };
 
     keymap {
@@ -64,9 +69,9 @@
 
         Base {
             bindings = <
-       &kp Q       &kp W       &kp F        &kp P        &kp B      &kp J        &kp L        &kp U        &kp Y       &kp SEMI
+       &kp Q       &kp W       &kp F        &kp P        &kp B      &kp J        &kp L        &kp U        &kp Y       &kp APOS
        &hm LGUI A  &hm LALT R  &hm LCTRL S  &hm LSHFT T  &kp G      &kp M        &hm RSHFT N  &hm RCTRL E  &hm RALT I  &hm RGUI O
-&kp Q  &kp Z       &kp X       &kp C        &kp D        &kp V      &kp K        &kp H        &kp COMMA    &kp DOT     &kp FSLH    &kp SEMI
+&kp Q  &kp Z       &kp X       &kp C        &kp D        &kp V      &kp K        &kp H        &kp COMMA    &kp DOT     &kp FSLH    &kp APOS
                                &lt 3 ESC    &lt 2 SPACE  &kp TAB    &lt 5 ENTER  &lt 4 BSPC   &lt 6 DEL
             >;
 
