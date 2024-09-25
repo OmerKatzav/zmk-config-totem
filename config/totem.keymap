@@ -61,6 +61,7 @@
         qwerty_apostrophe {
             bindings = <&kp APOS>;
             key-positions = <19 10>;
+            layers = <1>;
         };
     };
 
