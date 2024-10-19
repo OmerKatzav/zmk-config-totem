@@ -63,6 +63,18 @@
             key-positions = <19 10>;
             layers = <1>;
         };
+
+        gaming_switch {
+            bindings = <&to 7>;
+            key-positions = <34 18>;
+            layers = <0>;
+        };
+
+        normal_switch {
+            bindings = <&to 0>;
+            key-positions = <34 18>;
+            layers = <7>;
+        };
     };
 
     keymap {
@@ -144,6 +156,15 @@
             >;
 
             label = "Fun";
+        };
+
+        Gaming {
+            bindings = <
+         &kp TAB    &kp Q  &kp X      &kp E      &kp R       &trans  &trans  &trans  &trans  &trans
+         &kp LSHFT  &kp A  &kp W      &kp D      &kp F       &trans  &trans  &trans  &trans  &trans
+&kp TAB  &kp LCTRL  &kp Z  &kp S      &kp C      &kp V       &trans  &trans  &trans  &trans  &trans  &trans
+                           &lt 4 ESC  &kp SPACE  &kp LALT    &trans  &trans  &trans
+            >;
         };
     };
 };
